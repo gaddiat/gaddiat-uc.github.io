@@ -6,6 +6,7 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Resume Website Template Free Download" name="keywords">
         <meta content="Resume Website Template Free Download" name="description">
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -22,6 +23,20 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+	    <style>
+	        
+	    </style>
+	    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6349P5EDHK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6349P5EDHK');
+</script>
+
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -47,14 +62,10 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#experience">Experience<i class="fa fa-star"></i></a>
                                 </li>
-                                <!--
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#service">Service<i class="fa fa-tasks"></i></a>
+                                    <a class="nav-link" href="#WAPH">WAPH<i class="fa fa-file-archive"></i></a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#portfolio">Portfolio<i class="fa fa-file-archive"></i></a>
-                                </li>
-                            -->
+                            
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact">Contact<i class="fa fa-envelope"></i></a>
                                 </li>
@@ -63,7 +74,7 @@
                     </nav>
                 </div>
                 <div class="sidebar-footer">
-                    <a href="linkedin.com/in/amitgaddi"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/amitgaddi"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="content">
@@ -73,7 +84,7 @@
                         <p>I'm</p>
                         <h1>Amit Gaddi</h1>
                         <h2></h2>
-                        <div class="typed-text">Graduate student in Inf0rmation Technology, Ex-Accenture</div>
+                        <div class="typed-text">Graduate student in Information Technology, Ex-Accenture</div>
                     </div>
                 </div>
                 <!-- Header End -->
@@ -95,7 +106,7 @@
                         </div>
                         <div class="row align-items-center">
                             <div class="col-md-6 col-lg-5">
-                                <img src="imges/Pic.jpg" alt="Image">
+                                <img src="images/Pic.jpg" alt="Image">
                             </div>
                             <div class="col-md-6 col-lg-7">
                                 <p>
@@ -104,42 +115,7 @@
                                 <a class="btn" href="mailto:gaddiat@mail.uc.edu">Hire Me</a>
                             </div>
                         </div>
-<!--
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="skills">
-                                    <div class="skill-name">
-                                        <p>Design</p><p>85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p>SEO</p><p>95%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="skills">
-                                    <div class="skill-name">
-                                        <p>Development</p><p>90%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p>Marketing</p><p>85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
--->
+
                     </div>
                 </div>
                 <!-- About End -->
@@ -239,91 +215,57 @@
                         </div>
                     </div>
                 </div>
-             
-                <div class="portfolio" id="portfolio">
+             -->
+        <!--        <div class="WAPH" id="WAPH">
                     <div class="content-inner">
                         <div class="content-header">
-                            <h2>Portfolio</h2>
+                            <h2>WPAH Lab</h2>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <ul id="portfolio-flters">
-                                    <li data-filter="*" class="filter-active">All</li>
-                                    <li data-filter=".web-des">Design</li>
-                                    <li data-filter=".web-dev">Development</li>
-                                    <li data-filter=".dig-mar">Marketing</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <div id="colorElement">Click to change color</div>
+
+                        <div ng-app="myApp" ng-controller="myCtrl">
+    						<div id="digit-clock">{{currentTime}}</div>
+						</div>
+
+                        <div id="email">Show my email</div>
+
                         <div class="row portfolio-container">
-                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/portfolio-1.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-1.jpg" data-lightbox="portfolio" data-title="Project Name" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Web Design</span></a>
-                                    </figure>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/portfolio-2.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Web Design</span></a>
-                                    </figure>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/portfolio-3.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Web Development</span></a>
-                                    </figure>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/portfolio-4.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Web Development</span></a>
-                                    </figure>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/portfolio-5.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-5.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Digital Marketing</span></a>
-                                    </figure>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/portfolio-6.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-6.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Digital Marketing</span></a>
-                                    </figure>
-                                </div>
-                            </div>
+          <div id="analog-clock">
+          <canvas id="analog-clock" width="150" height="150" style="background-color: #999"></canvas>
+</div>
+                          
                         </div>
                     </div>
                 </div>
+-->
+
+
+<!--
+
+                <div id="myContainer">
+   					 <div class="WAPH" id="WAPH">
+        				<div class="content-inner">
+          					 <div class="content-header">
+                					<h2>WPAH Lab</h2>
+           					 </div>
+           					 <div id="colorElement">Click to change color</div>
+
+           					 <div ng-app="myApp" ng-controller="myCtrl">
+               						 <div id="digit-clock">{{currentTime}}</div>
+            				</div>
+
+           					 <div id="email">Show my email</div>
+
+            					<div class="row portfolio-container">
+                					<div id="analog-clock">
+                    					<canvas id="analog-clock-canvas" width="150" height="150" style="background-color: #999"></canvas>
+                					</div>
+           					 	</div>
+        					</div>
+   						 </div>
+						</div>
+-->
+                <!--
                                 <div class="review" id="review">
                     <div class="content-inner">
                         <div class="content-header">
@@ -432,16 +374,48 @@
                 <div class="footer">
                     <div class="content-inner">
                         <div class="row align-items-center">
+                           
                             <div class="col-md-6">
-                                <p>&copy; Copyright <a href="">AG</a>. All Rights Reserved</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Powered by <a href="">AG</a></p>
+                                <p>Powered by <a href="https://www.linkedin.com/in/amitgaddi">AG</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Footer Start -->
+
+                 <div id="myContainer">
+   					 <div class="WAPH" id="WAPH">
+        				<div class="content-inner">
+          					 <div class="content-header">
+                					<h2>WPAH Lab</h2>
+           					 </div>
+           					 <div id="colorElement">Click to change color</div>
+
+           					 <div ng-app="myApp" ng-controller="myCtrl">
+               						 <div id="digit-clock">{{currentTime}}</div>
+            				</div>
+
+           					 <div id="email">Show my email</div>
+
+            					<div class="row portfolio-container">
+                					<div id="analog-clock-section">
+                    					<canvas id="analog-clock" width="150" height="150" style="background-color: #999"></canvas>
+                					</div>
+           					 	</div>
+<br><br><br><br><br><br><br><br>
+           					 	<div id="joke-container"></div>
+<br>
+<div id="comic-container"></div>
+<div id="weather-widget"></div>
+
+
+<div id="welcome-message"></div>
+<br>
+
+        					</div>
+   						 </div>
+						</div>
+
             </div>
         </div>
         
@@ -460,5 +434,167 @@
         
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="js/email.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<script>
+    // Function to fetch a joke from the JokeAPI and display it
+    function fetchJoke() {
+        $.get("https://v2.jokeapi.dev/joke/Any", function(data) {
+            // Check if the joke has a setup and delivery (two-part joke) or just a joke (single-part joke)
+            if (data.type === "twopart") {
+                $("#joke-container").html("<p>" + data.setup + "</p><p>" + data.delivery + "</p>");
+            } else {
+                $("#joke-container").html("<p>" + data.joke + "</p>");
+            }
+        });
+    }
+
+    // Fetch a joke when the page loads
+    fetchJoke();
+
+    // Fetch a new joke every 1 minute
+    setInterval(fetchJoke, 60000); // 60000 milliseconds = 1 minute
+</script>
+
+<script>
+    $(document).ready(function() {
+        // Function to fetch the latest comic from XKCD API
+        function fetchComic() {
+            $.get("https://xkcd.com/info.0.json", function(data) {
+                // Construct the HTML to display the comic image with its title
+                var comicHtml = '<img src="' + data.img + '" alt="' + data.alt + '">';
+                comicHtml += '<p>' + data.title + '</p>';
+
+                // Display the comic in the comic-container div
+                $("#comic-container").html(comicHtml);
+            });
+        }
+
+        // Fetch the comic when the page loads
+        fetchComic();
+
+        // Fetch a new comic every 5 minutes
+        setInterval(fetchComic, 300000); // 300000 milliseconds = 5 minutes
+    });
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://waph-uc.github.io/clock.js"></script>
+<script>
+    $(document).ready(function() {
+        var canvas = $("#analog-clock")[0]; // Get the canvas element
+        var ctx = canvas.getContext("2d");
+        var radius = canvas.height / 2;
+        ctx.translate(radius, radius);
+        radius = radius * 0.90;
+        
+        setInterval(drawClock, 1000);
+
+        function drawClock() {
+            drawFace(ctx, radius);
+            drawNumbers(ctx, radius);
+            drawTime(ctx, radius);
+        }
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        // Weatherbit API key
+        const apiKey = 'YOUR_WEATHERBIT_API_KEY';
+        // Weatherbit API endpoint
+        const apiUrl = `https://api.weatherbit.io/v2.0/current?key=${apiKey}`;
+
+        // Function to fetch current weather data from Weatherbit API
+        function fetchWeather() {
+            // Make a GET request to the Weatherbit API
+            $.get(apiUrl, function(data) {
+                // Extract weather data from the response
+                const weatherData = data.data[0];
+                const temperature = weatherData.temp;
+                const description = weatherData.weather.description;
+                const icon = weatherData.weather.icon;
+
+                // Construct HTML for weather widget
+                const widgetHtml = `
+                    <div>
+                        <img src="https://www.weatherbit.io/static/img/icons/${icon}.png" alt="${dbcd889a010742878ec890503ed0196b}">
+                        <p>${description}</p>
+                        <p>${temperature}°C</p>
+                    </div>
+                `;
+
+                // Display weather widget in the weather-widget div
+                $("#weather-widget").html(widgetHtml);
+            });
+        }
+
+        // Fetch weather when the page loads
+        fetchWeather();
+
+        // Fetch weather every 30 minutes
+        setInterval(fetchWeather, 1800000); // 1800000 milliseconds = 30 minutes
+    });
+</script>
+
+<script>
+        // Function to set a cookie with a specified name, value, and expiration date
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        // Function to get the value of a cookie by its name
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        // Function to display the appropriate welcome message based on whether it's the first visit or not
+        function displayWelcomeMessage() {
+            var lastVisit = getCookie("lastVisit");
+            if (!lastVisit) {
+                // First-time visit
+                var currentDate = new Date().toUTCString();
+                setCookie("lastVisit", currentDate, 365); // Store the last visit for 1 year
+                document.getElementById("welcome-message").innerText = "Welcome to my homepage!";
+            } else {
+                // Returning visit
+                document.getElementById("welcome-message").innerText = "Welcome back! Your last visit was " + lastVisit;
+                var currentDate = new Date().toUTCString();
+                setCookie("lastVisit", currentDate, 365); // Update the last visit
+            }
+        }
+
+        // Call the function to display the welcome message
+        displayWelcomeMessage();
+    </script>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+        $scope.displayTime = function() {
+            $scope.currentTime = "Current time: " + new Date();
+        };
+        setInterval(function() {
+            $scope.$apply($scope.displayTime);
+        }, 500);
+    });
+</script>
+
     </body>
 </html>
