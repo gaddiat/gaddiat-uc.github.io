@@ -16,7 +16,7 @@
 
 Repository's URL: [https://github.com/gaddiat/gaddiat.github.io](https://github.com/gaddiat/gaddiat.github.io)
 
-This is a publicrepository for Amit Gaddi to store all code from the course. The organization of this repository is as follows.
+This is a public repository for Amit Gaddi to store all code from the course. The organization of this repository is as follows.
 
 # Individual Project 1
 
@@ -24,51 +24,43 @@ This is a publicrepository for Amit Gaddi to store all code from the course. The
 
 ## Front-end Web Development with a Professional Profile Website on github.io cloud service
 
-## Overview and Requirements 
+## Overview
 
 The goal of this project is to create and launch a polished GitHub profile page that will attract employers. The website has a thorough resume section as well as a page devoted to explaining the "Web Application Programming and Hacking" course. With an open-source CSS framework like as Bootstrap, the design is improved. The website also includes additional technological components, such integrated public Web APIs for dynamic data retrieval, JavaScript cookies for a customized user experience, and JavaScript features developed with jQuery and other libraries. All things considered, the project demonstrates proficiency with front-end programming as well as a grasp of useful web application ideas.
 
 
 ### General requirements (30 pts): 
 
- + Professional Profile Website: Created and launched a personal website in the GitHub cloud that highlights my qualifications with a headshot, name, contact details, education, experiences, and abilities.  
+ + Professional Profile Website: Created and launched a personal website in the GitHub cloud that highlights my qualifications with a headshot, name, contact details, education, experiences.  
 
 
- + Course Introduction Page: Made a link that points to a fresh HTML page that describes the course "Web Application Programming and Hacking" as well as pertinent practical exercises.
+ + Course Introduction Page: Made a link that points to a fresh `WAPH.html` page that describes the course "Web Application Programming and Hacking" as well as pertinent practical exercises.
 
 
 
 ### Non-technical requirements (20 pts)​
 
 
-+ CSS Framework: For style, used an open-source CSS framework like Bootstrap.
++ CSS Framework: For style, I used an open-source CSS framework like Bootstrap. and linked it with my personal website to form a style over my personal website, since the website will be evaluated as a component of a job application, it should be tailored for prospective employers.
+
+[Resume Templted Used](https://themewagon.com/themes/free-bootstrap-4-html5-personal-portfolio-website-template-resume/)
 
 
-+ Target Audience: Since the website will be evaluated as a component of a job application, it should be tailored for prospective employers.
++ Page Tracker: Used a page tracker(Google Analytics) and embedded code in my `index.hmtl`.
 
-
-+ Page Tracker: Use a page tracker, such as Flag Counter or Google Analytics.
-
-
+![GA](images/GA.png)
 
 
 ### Technical requirements (50 pts)​
 
 #### Basic JavaScript code (20 pts)​
 
-+ Use jQuery and one more open-source JavaScript framework/library​ to implement JavaScript code introduced in Lab 2, including, a digital clock; an analog clock; show/hide your email; and one more functionality of your choice. **(5 pts each)**
 
-+ Two public Web APIs integration (20 pts)​
++ Basic JavaScript Code: Added a digital clock, an analog clock, the ability to show or conceal emails,a topper which shows message when hovered over it and a click to colour chnager. I have used JQuery and Angular framework in my code to implement JavaScriptcode.
 
-1. Integrate the jokeAPI ([https://v2.jokeapi.dev/joke/Any](https://v2.jokeapi.dev/joke/Any), similar to Lab 2.2.d.i) with Any category of joke to display a new joke in your page every 1 minute
++ API Integrations: Connected two open Web APIs: one for joke displays and another one which displays photo of fox everytime you load the page.
 
-2. Integrate a public API with graphics. Examples: [https://xkcd.com/info.0.json](https://xkcd.com/info.0.json), [https://www.weatherbit.io](https://www.weatherbit.io).
-
-+ Use JavaScript cookies to remember the client (10 pts): If first-time visit, display a message "Welcome to my homepage!", otherwise, display a message "Welcome back! Your last visit was <the date/time of last visit>"
++ JavaScript Cookies: Recalled the client's visit by using JavaScript cookies, and show a welcome message in line with it.
 
 
 
-+ Basic JavaScript Code: Add a digital clock, an analog clock, the ability to show or conceal emails, and one more feature of your choosing.
-+ JavaScript Framework/Library: To implement the functionality, use jQuery together with one additional open-source JavaScript framework/library.
-+ API Integrations: Connect two open Web APIs: one for graphical data (e.g., weather data) and another for joke displays, jokeAPI.
-+ JavaScript Cookies: Recall the client's visit by using JavaScript cookies, and show a welcome message in line with it.
