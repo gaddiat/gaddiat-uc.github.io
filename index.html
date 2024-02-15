@@ -26,7 +26,25 @@
 	    <style>
 	        
 	    </style>
-	    
+	    <style>
+        /* Style for the tooltip button */
+        #tooltip-button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+<!-- <style>
+        /* CSS to increase the size of the weather widget */
+        #weather-widget {
+            width: 300px; /* Set the width to your desired size */
+            height: 200px; /* Set the height to your desired size */
+            border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+        }
+    </style> -->
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6349P5EDHK"></script>
 <script>
@@ -62,12 +80,14 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#experience">Experience<i class="fa fa-star"></i></a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#WAPH">WAPH<i class="fa fa-file-archive"></i></a>
-                                </li>
+                                
                             
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact">Contact<i class="fa fa-envelope"></i></a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#WAPH">WAPH<i class="fa fa-file-archive"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -175,156 +195,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Experience Start -->
-                
-                <!-- Service Start --><!--
-                <div class="service" id="service">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>Service</h2>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="srv-col">
-                                    <i class="fa fa-desktop"></i>
-                                    <h3>Web Design</h3>
-                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="srv-col">
-                                    <i class="fa fa-laptop"></i>
-                                    <h3>Web Development</h3>
-                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="srv-col">
-                                    <i class="fa fa-search"></i>
-                                    <h3>SEO</h3>
-                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="srv-col">
-                                    <i class="fa fa-envelope-open-text"></i>
-                                    <h3>Digital Marketing</h3>
-                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             -->
-        <!--        <div class="WAPH" id="WAPH">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>WPAH Lab</h2>
-                        </div>
-                        <div id="colorElement">Click to change color</div>
-
-                        <div ng-app="myApp" ng-controller="myCtrl">
-    						<div id="digit-clock">{{currentTime}}</div>
-						</div>
-
-                        <div id="email">Show my email</div>
-
-                        <div class="row portfolio-container">
-          <div id="analog-clock">
-          <canvas id="analog-clock" width="150" height="150" style="background-color: #999"></canvas>
-</div>
-                          
-                        </div>
-                    </div>
-                </div>
--->
-
-
-<!--
-
-                <div id="myContainer">
-   					 <div class="WAPH" id="WAPH">
-        				<div class="content-inner">
-          					 <div class="content-header">
-                					<h2>WPAH Lab</h2>
-           					 </div>
-           					 <div id="colorElement">Click to change color</div>
-
-           					 <div ng-app="myApp" ng-controller="myCtrl">
-               						 <div id="digit-clock">{{currentTime}}</div>
-            				</div>
-
-           					 <div id="email">Show my email</div>
-
-            					<div class="row portfolio-container">
-                					<div id="analog-clock">
-                    					<canvas id="analog-clock-canvas" width="150" height="150" style="background-color: #999"></canvas>
-                					</div>
-           					 	</div>
-        					</div>
-   						 </div>
-						</div>
--->
-                <!--
-                                <div class="review" id="review">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>Review</h2>
-                        </div>
-                        <div class="row align-items-center review-slider">
-                            <div class="col-md-12">
-                                <div class="review-slider-item">
-                                    <div class="review-text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci. Donec molestie velit id libero blandit, quis suscipit urna suscipit. Donec aliquet erat eu lacinia iaculis. Ut tempor tellus eu sem pharetra feugiat.
-                                        </p>
-                                    </div>
-                                    <div class="review-img">
-                                        <img src="img/review-1.jpg" alt="Image">
-                                        <div class="review-name">
-                                            <h3>Client Name</h3>
-                                            <p>Profession</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="review-slider-item">
-                                    <div class="review-text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci. Donec molestie velit id libero blandit, quis suscipit urna suscipit. Donec aliquet erat eu lacinia iaculis. Ut tempor tellus eu sem pharetra feugiat.
-                                        </p>
-                                    </div>
-                                    <div class="review-img">
-                                        <img src="img/review-2.jpg" alt="Image">
-                                        <div class="review-name">
-                                            <h3>Client Name</h3>
-                                            <p>Profession</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="review-slider-item">
-                                    <div class="review-text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci. Donec molestie velit id libero blandit, quis suscipit urna suscipit. Donec aliquet erat eu lacinia iaculis. Ut tempor tellus eu sem pharetra feugiat.
-                                        </p>
-                                    </div>
-                                    <div class="review-img">
-                                        <img src="img/review-3.jpg" alt="Image">
-                                        <div class="review-name">
-                                            <h3>Client Name</h3>
-                                            <p>Profession</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                -->
+           
                 <!-- Contact Start -->
                 <div class="contact" id="contact">
                     <div class="content-inner">
@@ -387,8 +258,13 @@
    					 <div class="WAPH" id="WAPH">
         				<div class="content-inner">
           					 <div class="content-header">
-                					<h2>WPAH Lab</h2>
+                					<h2>WAPH Lab</h2>
            					 </div>
+
+                                <a href="/waph.html">Introduction to Web Application Programming and Hacking</a>
+
+                                <button id="tooltip-button">Hover me</button>
+
            					 <div id="colorElement">Click to change color</div>
 
            					 <div ng-app="myApp" ng-controller="myCtrl">
@@ -402,15 +278,16 @@
                     					<canvas id="analog-clock" width="150" height="150" style="background-color: #999"></canvas>
                 					</div>
            					 	</div>
-<br><br><br><br><br><br><br><br>
+                                    <br><br><br><br><br><br><br><br>
            					 	<div id="joke-container"></div>
-<br>
-<div id="comic-container"></div>
-<div id="weather-widget"></div>
+                                <br>
+                                <div id="comic-container"></div>
+                                <br><br><br><br><br><br><br><br>
+                                <div id="weather-widget"></div>
 
-
-<div id="welcome-message"></div>
-<br>
+                                <br><br><br><br><br><br><br><br>
+                                <div id="welcome-message"></div>
+                                <br>
 
         					</div>
    						 </div>
@@ -501,12 +378,13 @@
         }
     });
 </script>
+
 <script>
     $(document).ready(function() {
         // Weatherbit API key
-        const apiKey = 'YOUR_WEATHERBIT_API_KEY';
+        const apiKey = 'dbcd889a010742878ec890503ed0196b';
         // Weatherbit API endpoint
-        const apiUrl = `https://api.weatherbit.io/v2.0/current?key=${apiKey}`;
+        const apiUrl = "https://api.weatherbit.io/v2.0/current?key=$apiKey";
 
         // Function to fetch current weather data from Weatherbit API
         function fetchWeather() {
@@ -521,7 +399,7 @@
                 // Construct HTML for weather widget
                 const widgetHtml = `
                     <div>
-                        <img src="https://www.weatherbit.io/static/img/icons/${icon}.png" alt="${dbcd889a010742878ec890503ed0196b}">
+                        <img src="https://www.weatherbit.io/static/img/icons/${icon}.png" alt="${description}">
                         <p>${description}</p>
                         <p>${temperature}°C</p>
                     </div>
@@ -539,6 +417,8 @@
         setInterval(fetchWeather, 1800000); // 1800000 milliseconds = 30 minutes
     });
 </script>
+
+
 
 <script>
         // Function to set a cookie with a specified name, value, and expiration date
@@ -595,6 +475,21 @@
         }, 500);
     });
 </script>
+
+
+
+<script>
+        $(document).ready(function(){
+            // Initialize Tippy.js
+            tippy('#tooltip-button', {
+                content: 'WAPH!!!',
+                placement: 'top' // Position of the tooltip (top, bottom, left, right)
+            });
+        });
+    </script>
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
 
     </body>
 </html>
